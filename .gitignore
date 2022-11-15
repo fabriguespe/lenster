@@ -31,3 +31,4 @@ scratch/
 # IDE settings
 .idea/
 .vscode
+.vercel
