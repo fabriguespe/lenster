@@ -13,6 +13,7 @@ const MetaTags: FC<Props> = ({ title = APP_NAME, description = DESCRIPTION }) =>
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+      <link rel="manifest" crossOrigin="use-credentials" href="manifest.json" />
 
       <link rel="preconnect" href="https://img.lenster.io" />
       <link rel="dns-prefetch" href="https://img.lenster.io" />
